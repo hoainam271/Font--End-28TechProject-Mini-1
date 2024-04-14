@@ -172,14 +172,21 @@
 .section-one {
     height: 600px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-    background-image: url('/Project_Chinh_1/assets/images/background1.jpg');
+    background-image: url('background1.jpg');
     background-size: cover;
     /* Che phủ toàn bộ phần tử */
     width: 100%;
 
     /* filter: brightness(0.6) contrast(1.2); */
 }
-
+.section-one .container .bg{
+    height: 600px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    /* background-image: url('/Project_Chinh_1/assets/images/background1.jpg'); */
+    background-size: cover;
+    /* Che phủ toàn bộ phần tử */
+    width: 100%;
+}
 .section-one .container {
     margin-bottom: 50px;
     margin-left: 200px;
